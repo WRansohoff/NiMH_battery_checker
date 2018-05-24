@@ -8,7 +8,7 @@ https://oshpark.com/shared_projects/r9QXtg9v
 
 https://www.pololu.com/product/2563
 
-I haven't tested the I2C peripheral yet, but the 4 pins along the bottom are for an SSD1306 OLED display, to display the actual Analog-Digital Converter reading.
+The 4 pins along the bottom are for an SSD1306 OLED display, to display the actual Analog-Digital Converter reading. It is optional, but the program won't automatically detect if it is missing; un-comment the `#undef OLED_ATTACHED` line if you don't use one.
 
 Thanks to 'lujji' for a great overview of bare-metal programming on these chips, and some core registers/peripherals/etc:
 
